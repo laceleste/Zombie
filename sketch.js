@@ -47,7 +47,7 @@ function setup() {
   player.addAnimation("player",shooterImg)
   player.scale = 0.5
   player.frameDelay = 2
-  player.debug=true
+  // player.debug=true
   player.setCollider("rectangle",0,0,300,300)
  
 //  criar grupo de zumbie e BALAS
@@ -225,7 +225,7 @@ function gerarZumbies(){
     zombie.addAnimation("dead",deadImg)
     zombie.frameDelay=2
     zombie.velocityX = -(6+2*score/100) 
-    zombie.debug=true
+    // zombie.debug=true
     zombie.setCollider("rectangle",0,0,100,100)
     zombie.lifetime = 800
     zombieGroup.add(zombie)
