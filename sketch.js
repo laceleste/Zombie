@@ -224,7 +224,7 @@ function gerarZumbies(){
     zombie.addAnimation("zumbie",zombieImg)
     zombie.addAnimation("dead",deadImg)
     zombie.frameDelay=2
-    zombie.velocityX = -(6+2*score/100) 
+    zombie.velocityX = -(6+2*score/40) 
     // zombie.debug=true
     zombie.setCollider("rectangle",0,0,100,100)
     zombie.lifetime = 800
